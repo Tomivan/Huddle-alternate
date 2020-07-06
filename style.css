@@ -1,0 +1,162 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3{
+    font-family: 'Poppins', serif;
+}
+body{
+    line-height: 1.7;
+    font-family: 'Open Sans', serif;
+}
+.background{
+   z-index: -1; 
+}
+.top{
+    background-color: #effbfe;
+    margin-top: -50%;
+}
+.top-layer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+}
+.logo{
+    margin-left: 5%;
+}
+.free{
+    background-color: #fff;
+    width: 12vw;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #0c2631
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.top-section-left{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+h1{
+    font-size: 40px;
+    color: #0c2631;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0c2631
+}
+.mockups{
+    width: 50vw;
+}
+.get-started{
+    background: #ec61ba;
+    margin-top: 5%;
+    height: 7vh;
+    width: 15vw;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.middle{
+    margin-top: 10%;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 80vw;
+    height: 50vh;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px #0000001e;
+    padding: 1em;
+
+}
+.section-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.section-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.section-image{
+    width:20vw;
+    height: 30vh;
+    margin-top: 5%;
+}
+.section-left p, .section-right p{
+    font-size: 20px;
+}
+.build{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50vw;
+    height: 30vh;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px #0000001e;
+    padding: 1em;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+    color: #0c2631
+}
+.for-free{
+    background: #ec61ba;
+    color: #fff;
+    width: 25vw;
+    height: 7vh;
+    border: none;
+    border-radius: 50px;
+    margin-left: 22%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer{
+    background: #0c2631;
+    display: flex;
+    justify-content: space-around;
+    padding: .5em;
+    height: 60vh;
+    margin-top: -5%;
+    z-index: -1;
+}
+.footer-1{
+    margin-top: 10%;
+}
+.note{
+    display: flex;
+    margin: 5%;
+    width: 100%;
+}
+.note img{
+    height: 3vh;
+    width: 1.5vw;
+}
+.note p{
+    color: #fff;
+    margin-left: 10%;
+}
